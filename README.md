@@ -25,11 +25,11 @@ docker run \
     --detach \
     --name jexus \
     --restart unless-stopped \
-    --publish 5820:80 \
+    --publish 9999:80 \
     --volume $(pwd)/jexus/www:/var/www \
     --volume $(pwd)/jexus/conf:/usr/jexus/siteconf \
     --volume $(pwd)/jexus/log:/usr/jexus/log \
     beginor/jexus-x64:5.8.3-RC1
 ```
-4. Then browse [http://127.0.0.1:5820/info](http://127.0.0.1:5820/info) with
+4. Then browse [http://127.0.0.1:9999/info](http://127.0.0.1:9999/info) with
 your faverite borwser, see what happens.
