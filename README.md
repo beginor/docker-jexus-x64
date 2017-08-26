@@ -7,7 +7,7 @@ Usage:
 1. Get the image with command:
 
 ```sh
-docker pull beginor/jexus-x64:5.8.2
+docker pull beginor/jexus-x64:5.8.3-RC1
 ```
 
 2. Prepare the directors for volumes:
