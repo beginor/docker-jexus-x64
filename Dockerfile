@@ -1,6 +1,6 @@
 FROM beginor/ubuntu-china:16.04
 
-MAINTAINER beginor <beginor@qq.com>
+LABEL MAINTAINER="beginor <beginor@qq.com>"
 
 COPY bootstrap.sh /usr/bin/
 
