@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t beginor/jexus-x64:5.8.3-RC3 .
+docker build --rm --no-cache -t beginor/jexus-x64:5.8.3.0 .
