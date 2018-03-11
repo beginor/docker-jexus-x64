@@ -10,7 +10,7 @@
 1. Get the image with command:
 
   ```sh
-  docker pull beginor/jexus-x64:5.8.3.0
+  docker pull beginor/jexus-x64:5.8.3.1
   ```
 
 2. Prepare the directors for volumes:
@@ -34,7 +34,7 @@
       --volume $(pwd)/jexus/www:/var/www \
       --volume $(pwd)/jexus/conf:/usr/jexus/siteconf \
       --volume $(pwd)/jexus/log:/usr/jexus/log \
-      beginor/jexus-x64:5.8.3.0
+      beginor/jexus-x64:5.8.3.1
   ```
 
 5. Then browse [http://127.0.0.1:9999/info](http://127.0.0.1:9999/info) with your faverite borwser, see what happens.
