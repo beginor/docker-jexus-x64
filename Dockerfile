@@ -1,4 +1,4 @@
-FROM beginor/ubuntu-china:16.04
+FROM debian:stretch-slim
 
 LABEL MAINTAINER="beginor <beginor@qq.com>"
 
