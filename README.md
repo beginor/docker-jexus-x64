@@ -2,15 +2,15 @@
 
 ## Version Info:
 
-- Jexus x64 Pro (Standalone) 5.8.3.10
-- Ubuntu 16.04 (TimeZone set to Asia/Shanghai)
+- Jexus x64 Pro (Standalone) 5.8.3.12
+- debian:stretch-slim
 
 ## Usage:
 
 1. Get the image with command:
 
   ```sh
-  docker pull beginor/jexus-x64:5.8.3.10
+  docker pull beginor/jexus-x64:5.8.3.12
   ```
 
 2. Prepare the directors for volumes:
@@ -30,13 +30,13 @@
       --detach \
       --name jexus \
       --restart unless-stopped \
-      --publish 9999:80 \
+      --publish 8080:80 \
       --volume $(pwd)/jexus/www:/var/www \
       --volume $(pwd)/jexus/conf:/usr/jexus/siteconf \
       --volume $(pwd)/jexus/log:/usr/jexus/log \
-      beginor/jexus-x64:5.8.3.10
+      beginor/jexus-x64:5.8.3.12
   ```
 
-5. Then browse [http://127.0.0.1:9999/info](http://127.0.0.1:9999/info) with your faverite borwser, see what happens.
+5. Then browse [http://127.0.0.1:8080/info](http://127.0.0.1:8080/info) with your faverite borwser, see what happens.
 
-> You can change the port 9999 as your like.
+> You can change the port 8080 as your like.
