@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 apt-get update && apt-get upgrade -y
 # install wget to download jexus, curl for healthcheck.
 apt-get install -y --no-install-recommends curl ca-certificates procps
