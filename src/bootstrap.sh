@@ -24,6 +24,9 @@ trap signal_trap SIGTERM SIGINT
 
 start_jws
 
+echo "wait 3 seconds for jexus startup"
+/bin/sleep 3
+
 echo "Listening for termination signals..."
 
 wait_for_exit
