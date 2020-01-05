@@ -2,7 +2,7 @@
 
 ## Version Info:
 
-- Jexus x64 Pro (Standalone) 6.1.38
+- Jexus x64 Pro (Standalone) 6.1.52
 - debian:buster-slim
 
 ## Usage:
@@ -10,7 +10,7 @@
 1. Get the image with command:
 
   ```sh
-  docker pull beginor/jexus-x64:6.1.38
+  docker pull beginor/jexus-x64:6.1.52
   ```
 
 2. Prepare the directors for volumes:
@@ -34,7 +34,7 @@
       --volume $(pwd)/jexus/www:/var/www \
       --volume $(pwd)/jexus/conf:/usr/jexus/siteconf \
       --volume $(pwd)/jexus/log:/usr/jexus/log \
-      beginor/jexus-x64:6.1.38
+      beginor/jexus-x64:6.1.52
   ```
 
 5. Then browse [http://127.0.0.1:8080/info](http://127.0.0.1:8080/info) with your faverite borwser, see what happens.
